@@ -1,4 +1,5 @@
 ---
+test-cases:
 - summary: |
     возможность искать товары по ключевому слову
   status: pass
@@ -6,6 +7,7 @@
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     возможность искать товары по категории
   status: pass
@@ -13,6 +15,7 @@ bugreports: []
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     возможность фильтровать товары
   status: pass
@@ -33,6 +36,7 @@ bugreports:
       Поехала верстка сайта, кнопка в корзину уехала за рамки
       
 ---
+test-cases:
 - summary: |
     возможность искать товары по категории 2
   status: fail
@@ -52,7 +56,7 @@ bugreports:
     actual-result: |
       Сайт выдал много товаров не относящихся к данным параметрам поиска и данной категории      
 
-      bugreports:
+bugreports:
   - summary: |
       поехала верстка изображения товара товара
     environment: |
@@ -68,6 +72,7 @@ bugreports:
       Изображение товара Iphone 9 поехала верстка изображения
 
 ---
+test-cases:
 - summary: |
     возможность просматривать товары
   status: pass
@@ -75,13 +80,15 @@ bugreports:
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     имеется кнопка с подробным описанием товара
   status: fail
 
- bugreports: []
+bugreports: []
  
 ---
+test-cases:
 - summary: |
     возможность добавлять товары в корзину и просматривать содержимое корзины
   status: pass
@@ -89,34 +96,39 @@ bugreports: []
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     возможность редактировать корзину - увеличивать количество выбранных товаров
   status: pass
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
     Удаление товаров из корзины
   status: pass
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
     Оформление заказа
   status: pass
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
     Данные заказа отправляются на сервер
   status: fail
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
     Расчет стоимости добавленных товаров
   status: pass
@@ -124,11 +136,12 @@ bugreports: []
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра В наличии
   status: fail
 
-  bugreports:
+bugreports:
   - summary: |
       Сайт не корректно выдает товары
     environment: |
@@ -143,6 +156,7 @@ bugreports: []
       Количество товаров уменьшилось
 
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра В наличии 2
   status: fail
@@ -162,13 +176,15 @@ bugreports:
       Количество товаров увеличилось
       
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра Цена
   status: fail
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра Цена 2
   status: fail
@@ -176,6 +192,7 @@ bugreports:
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра Цена 3
   status: fail
@@ -183,6 +200,7 @@ bugreports: []
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра Цена 4
   status: pass
@@ -190,6 +208,7 @@ bugreports: []
 bugreports: []
 
 ---
+test-cases:
 - summary: |
     Корректная работа фильтра Цена 5
   status: fail
@@ -197,6 +216,7 @@ bugreports: []
 bugreports: []
 
 ---
+test-cases:
 - summary: |
      Сайт имеет мобильную версию
   status: fail
@@ -218,6 +238,7 @@ bugreports:
       Исчезли панели фильтров Brand сайт отображается не полностью
 
 ---
+test-cases:
 - summary: |
      Веб-сайт оптимизирован для скорости работы
   status: pass
@@ -225,57 +246,65 @@ bugreports:
 bugreports: []
 
 ---
+test-cases:
 - summary: |
      После оформления заказа происходит переход на страницу оплаты товара
   status: fail
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
      тест на совместимость с Microsoft Edge
   status: pass
 
-  bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
      тест на совместимость с FireFox
   status: pass
 
-  bugreports: []
+bugreports: []
   
 ---
+test-cases:
 - summary: |
      тест на совместимость с Chrome
   status: pass
 
-  bugreports: []
+bugreports: []
   
 ---
+test-cases:
 - summary: |
      тест на совместимость с Opera
   status: pass
 
-   bugreports: []
+bugreports: []
 
 ---
+test-cases:
 - summary: |
      тест на совместимость с Safari
   status: fail
 
-  bugreports: []
+bugreports: []
   
 ---
+test-cases:
 - summary: |
      описание товара на языке соответсвующем версии сайта
   status: fail
 
-  bugreports: []  
+bugreports: []  
 
 ---
+test-cases:
 - summary: |
      имеется подробное описание для каждого заказа
   status: pass
 
-  bugreports: []
+bugreports: []
