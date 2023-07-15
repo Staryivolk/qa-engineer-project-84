@@ -132,82 +132,126 @@ bugreports:
       Windows 10
     steps-to-reproduce: |
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. Слева на панели фильтра ставим убираем галочку напротив В наличии
+      2. Слева на панели фильтра ставим галочку напротив В наличии
     expected-result: |
-      Товаров стало больше так как добавились товары которых нет в наличии
+      Товаров стало меньше так как исчезли товары которых нет в наличии
     actual-result: |
-      Количество товаров уменьшилось
+      Количество товаров увеличилось
 ---
 - summary: |
     Корректная работа фильтра Цена
   status: fail
+
+  bugreports: []
 
 ---
 - summary: |
     Корректная работа фильтра Цена 2
   status: fail
 
+bugreports: []
+
 ---
 - summary: |
     Корректная работа фильтра Цена 3
   status: fail
+
+bugreports: []
 
 ---
 - summary: |
     Корректная работа фильтра Цена 4
   status: pass
 
+bugreports: []
+
 ---
 - summary: |
     Корректная работа фильтра Цена 5
   status: fail
+
+bugreports: []
 
 ---
 - summary: |
      Сайт имеет мобильную версию
   status: fail
 
+bugreports:
+  - summary: |
+      Разьехалась верстка
+    environment: |
+      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Windows 10
+    steps-to-reproduce: |
+      1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. открываем DevTools
+      3. открываем в DevTools device toolbars
+      4. выбираем Iphone SE
+    expected-result: |
+      Надписи и картинки не выходят за рамки полей
+    actual-result: |
+      Исчезли панели фильтров Brand сайт отображается не полностью
+
 ---
 - summary: |
      Веб-сайт оптимизирован для скорости работы
   status: pass
+
+bugreports: []
 
 ---
 - summary: |
      После оформления заказа происходит переход на страницу оплаты товара
   status: fail
 
+  bugreports: []
+
 ---
 - summary: |
      тест на совместимость с Microsoft Edge
   status: pass
+
+  bugreports: []
 
 ---
 - summary: |
      тест на совместимость с FireFox
   status: pass
 
+  bugreports: []
+  
 ---
 - summary: |
      тест на совместимость с Chrome
   status: pass
 
+  bugreports: []
+  
 ---
 - summary: |
      тест на совместимость с Opera
   status: pass
+
+   bugreports: []
 
 ---
 - summary: |
      тест на совместимость с Safari
   status: fail
 
+  bugreports: []
+  
 ---
 - summary: |
      описание товара на языке соответсвующем версии сайта
   status: fail
 
+  bugreports: []  
+
 ---
 - summary: |
      имеется подробное описание для каждого заказа
   status: pass
+
+  bugreports: []
