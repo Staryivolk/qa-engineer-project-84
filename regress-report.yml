@@ -51,6 +51,21 @@ bugreports:
       Данных товаров не обнаружено
     actual-result: |
       Сайт выдал много товаров не относящихся к данным параметрам поиска и данной категории
+
+      bugreports:
+  - summary: |
+      поехала верстка изображения товара товара
+    environment: |
+      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Windows 10
+    steps-to-reproduce: |
+      1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Слева на панели фильтра ставим галочку напротив Apple
+      3. Выбираем категорию Smartphones
+    expected-result: |
+      Сайт выдает товары Apple
+    actual-result: |
+      Изображение товара Iphone 9 поехала верстка изображения
       
   ---
 - summary: |
