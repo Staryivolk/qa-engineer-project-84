@@ -6,7 +6,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     возможность искать товары по категории
@@ -14,7 +13,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     возможность фильтровать товары
@@ -35,7 +33,6 @@ bugreports:
     actual-result: |
       Поехала верстка сайта, кнопка в корзину уехала за рамки
       
----
 test-cases:
 - summary: |
     возможность искать товары по категории 2
@@ -71,7 +68,6 @@ bugreports:
     actual-result: |
       Изображение товара Iphone 9 поехала верстка изображения
 
----
 test-cases:
 - summary: |
     возможность просматривать товары
@@ -79,7 +75,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     имеется кнопка с подробным описанием товара
@@ -87,7 +82,6 @@ test-cases:
 
 bugreports: []
  
----
 test-cases:
 - summary: |
     возможность добавлять товары в корзину и просматривать содержимое корзины
@@ -95,7 +89,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     возможность редактировать корзину - увеличивать количество выбранных товаров
@@ -103,7 +96,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Удаление товаров из корзины
@@ -111,7 +103,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Оформление заказа
@@ -119,7 +110,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Данные заказа отправляются на сервер
@@ -127,7 +117,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Расчет стоимости добавленных товаров
@@ -135,7 +124,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Корректная работа фильтра В наличии
@@ -155,7 +143,6 @@ bugreports:
     actual-result: |
       Количество товаров уменьшилось
 
----
 test-cases:
 - summary: |
     Корректная работа фильтра В наличии 2
@@ -175,7 +162,6 @@ bugreports:
     actual-result: |
       Количество товаров увеличилось
       
----
 test-cases:
 - summary: |
     Корректная работа фильтра Цена
@@ -183,7 +169,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Корректная работа фильтра Цена 2
@@ -191,7 +176,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Корректная работа фильтра Цена 3
@@ -199,7 +183,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Корректная работа фильтра Цена 4
@@ -207,7 +190,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
     Корректная работа фильтра Цена 5
@@ -215,7 +197,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
      Сайт имеет мобильную версию
@@ -237,7 +218,6 @@ bugreports:
     actual-result: |
       Исчезли панели фильтров Brand сайт отображается не полностью
 
----
 test-cases:
 - summary: |
      Веб-сайт оптимизирован для скорости работы
@@ -245,7 +225,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
      После оформления заказа происходит переход на страницу оплаты товара
@@ -253,7 +232,6 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
      тест на совместимость с Microsoft Edge
@@ -261,23 +239,20 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
      тест на совместимость с FireFox
   status: pass
 
 bugreports: []
-  
----
+
 test-cases:
 - summary: |
      тест на совместимость с Chrome
   status: pass
 
 bugreports: []
-  
----
+
 test-cases:
 - summary: |
      тест на совместимость с Opera
@@ -285,15 +260,13 @@ test-cases:
 
 bugreports: []
 
----
 test-cases:
 - summary: |
      тест на совместимость с Safari
   status: fail
 
 bugreports: []
-  
----
+
 test-cases:
 - summary: |
      описание товара на языке соответсвующем версии сайта
@@ -301,7 +274,6 @@ test-cases:
 
 bugreports: []  
 
----
 test-cases:
 - summary: |
      имеется подробное описание для каждого заказа
