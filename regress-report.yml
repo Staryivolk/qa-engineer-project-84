@@ -3,14 +3,12 @@ test-cases:
   - summary: |
       возможность искать товары по ключевому слову
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       возможность искать товары по категории
     status: pass
-bugreports: []
 
 ---
 test-cases:
@@ -57,21 +55,18 @@ test-cases:
   - summary: |
       возможность просматривать товары
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       имеется кнопка с подробным описанием товара
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       возможность добавлять товары в корзину и просматривать содержимое корзины
     status: pass
-bugreports: []
 
 ---
 test-cases:
@@ -79,35 +74,30 @@ test-cases:
       возможность редактировать корзину - увеличивать количество выбранных
       товаров
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Удаление товаров из корзины
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Оформление заказа
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Данные заказа отправляются на сервер
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Расчет стоимости добавленных товаров
     status: pass
-bugreports: []
 
 ---
 test-cases:
@@ -152,35 +142,30 @@ test-cases:
   - summary: |
       Корректная работа фильтра Цена
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Корректная работа фильтра Цена 2
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Корректная работа фильтра Цена 3
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Корректная работа фильтра Цена 4
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       Корректная работа фильтра Цена 5
     status: fail
-bugreports: []
 
 ---
 test-cases:
@@ -208,60 +193,51 @@ test-cases:
   - summary: |
       Веб-сайт оптимизирован для скорости работы
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       После оформления заказа происходит переход на страницу оплаты товара
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       тест на совместимость с Microsoft Edge
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       тест на совместимость с FireFox
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       тест на совместимость с Chrome
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       тест на совместимость с Opera
     status: pass
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       тест на совместимость с Safari
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       описание товара на языке версии сайта
     status: fail
-bugreports: []
 
 ---
 test-cases:
   - summary: |
       имеется подробное описание для каждого заказа
     status: pass
-bugreports: []
