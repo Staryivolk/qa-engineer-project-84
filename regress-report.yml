@@ -36,13 +36,12 @@ bugreports:
   - summary: |
       Поехала верстка
     environment: |
-      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
     steps-to-reproduce: >
-      1. Открываем страницу
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ 2.
-      Слева на панели фильтра ставим галочку напротив Samsung 3. Слева во
-      вкладке категория выбираем smartphones
+      1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ 
+      2. Слева на панели фильтра ставим галочку напротив Samsung 
+      3. Слева во вкладке категория выбираем smartphones
     expected-result: |
       открываются товары Samsung верстка сайта сохраняется
     actual-result: |
@@ -62,7 +61,7 @@ bugreports:
   - summary: |
       Сайт не корректно выдает товары
     environment: |
-      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
     steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
@@ -183,7 +182,7 @@ bugreports:
   - summary: |
       Сайт не корректно выдает товары
     environment: |
-      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
     steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
@@ -207,7 +206,7 @@ bugreports:
   - summary: |
       Сайт не корректно выдает товары
     environment: |
-      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
     steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
@@ -292,7 +291,7 @@ bugreports:
   - summary: |
       Разъехалась верстка
     environment: |
-      Google Chrome 114.0.5735.199 (Официальная сборка), (64 бит)
+      Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
     steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
