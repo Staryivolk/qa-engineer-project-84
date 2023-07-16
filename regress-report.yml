@@ -4,8 +4,7 @@ test-cases:
     Возможность искать товары по ключевому слову
   status: pass
 
-test-cases:
-  - summary: |
+- summary: |
     Возможность искать товары по ключевому слову
   status: pass
 
@@ -29,7 +28,7 @@ test-cases:
     Возможность фильтровать товары
   status: pass
   
-  - summary: |
+- summary: |
     Возможность фильтровать товары
   status: pass
 
@@ -54,7 +53,7 @@ test-cases:
     Возможность искать товары по категории 2
   status: pass
   
-  - summary: |
+- summary: |
     Возможность искать товары по категории 2
   status: fail
 
