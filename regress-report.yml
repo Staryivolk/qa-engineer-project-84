@@ -1,22 +1,38 @@
 ---
 test-cases:
+- summary: |
+    Возможность искать товары по ключевому слову
+  status: pass
+
+test-cases:
   - summary: |
-      возможность искать товары по ключевому слову
-    status: pass
+    Возможность искать товары по ключевому слову
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      возможность искать товары по категории
-    status: pass
+- summary: |
+    Возможность искать товары по категории
+  status: pass
+
+- summary: |
+    Возможность искать товары по категории
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
+- summary: |
+    Возможность фильтровать товары
+  status: pass
+  
   - summary: |
-      возможность фильтровать товары
-    status: pass
+    Возможность фильтровать товары
+  status: pass
+
 bugreports:
   - summary: |
       Поехала верстка
@@ -34,9 +50,14 @@ bugreports:
 
 ---
 test-cases:
+- summary: |
+    Возможность искать товары по категории 2
+  status: pass
+  
   - summary: |
-      возможность искать товары по категории 2
-    status: fail
+    Возможность искать товары по категории 2
+  status: fail
+
 bugreports:
   - summary: |
       Сайт не корректно выдает товары
@@ -54,66 +75,110 @@ bugreports:
 
 ---
 test-cases:
-  - summary: |
-      возможность просматривать товары
-    status: pass
+- summary: |
+    Возможность просматривать товары
+  status: pass
+  
+- summary: |
+    Возможность просматривать товары
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      имеется кнопка с подробным описанием товара
-    status: fail
+- summary: |
+    Имеется кнопка с подробным описанием товара
+  status: fail
+  
+- summary: |
+    Имеется кнопка с подробным описанием товара
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      возможность добавлять товары в корзину и просматривать содержимое корзины
-    status: pass
+- summary: |
+    Возможность добавлять товары в корзину и просматривать содержимое корзины
+  status: pass
+  
+- summary: |
+    Возможность добавлять товары в корзину и просматривать содержимое корзины
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: >
-      возможность редактировать корзину - увеличивать количество выбранных
-      товаров
-    status: pass
+- summary: |
+    Возможность редактировать корзину - увеличивать количество выбранных товаров
+  status: pass
+
+- summary: >
+    Возможность редактировать корзину - увеличивать количество выбранных товаров
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Удаление товаров из корзины
-    status: pass
+- summary: |
+    Удаление товаров из корзины
+  status: pass
+
+- summary: |
+    Удаление товаров из корзины
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Оформление заказа
-    status: pass
+- summary: |
+    Оформление заказа
+  status: pass
+
+- summary: |
+    Оформление заказа
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Данные заказа отправляются на сервер
-    status: fail
+- summary: |
+    Данные заказа отправляются на сервер
+  status: fail
+
+- summary: |
+    Данные заказа отправляются на сервер
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Расчет стоимости добавленных товаров
-    status: pass
+- summary: |
+    Расчет стоимости добавленных товаров
+  status: pass
+
+- summary: |
+    Расчет стоимости добавленных товаров
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра В наличии
-    status: fail
+- summary: |
+    Корректная работа фильтра В наличии
+  status: fail
+
+- summary: |
+    Корректная работа фильтра В наличии
+  status: fail
+
 bugreports:
   - summary: |
       Сайт не корректно выдает товары
@@ -130,9 +195,14 @@ bugreports:
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра В наличии 2
-    status: fail
+- summary: |
+    Корректная работа фильтра В наличии 2
+  status: pass
+  
+- summary: |
+    Корректная работа фильтра В наличии 2
+  status: fail
+
 bugreports:
   - summary: |
       Сайт не корректно выдает товары
@@ -149,44 +219,75 @@ bugreports:
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра Цена
-    status: fail
+- summary: |
+    Корректная работа фильтра Цена
+  status: fail
+  
+- summary: |
+    Корректная работа фильтра Цена
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра Цена 2
-    status: fail
+
+- summary: |
+    Корректная работа фильтра Цена 2
+  status: fail
+
+- summary: |
+    Корректная работа фильтра Цена 2
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра Цена 3
-    status: fail
+- summary: |
+    Корректная работа фильтра Цена 3
+  status: fail
+  
+- summary: |
+    Корректная работа фильтра Цена 3
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра Цена 4
-    status: pass
+- summary: |
+    Корректная работа фильтра Цена 4
+  status: pass
+
+- summary: |
+    Корректная работа фильтра Цена 4
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Корректная работа фильтра Цена 5
-    status: fail
+- summary: |
+    Корректная работа фильтра Цена 5
+  status: fail
+
+- summary: |
+    Корректная работа фильтра Цена 5
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      Сайт имеет мобильную версию
-    status: fail
+- summary: |
+    Сайт имеет мобильную версию
+  status: fail
+
+- summary: |
+    Сайт имеет мобильную версию
+  status: fail
+
 bugreports:
   - summary: |
       Разъехалась верстка
@@ -205,63 +306,108 @@ bugreports:
 
 ---
 test-cases:
-  - summary: |
-      Веб-сайт оптимизирован для скорости работы
+- summary: |
+    Веб-сайт оптимизирован для скорости работы
+  status: pass
+
+- summary: |
+    Веб-сайт оптимизирован для скорости работы
+  status: pass
+
+bugreports: []
+
+---
+test-cases:
+- summary: |
+    После оформления заказа происходит переход на страницу оплаты товара
+  status: fail
+
+- summary: |
+    После оформления заказа происходит переход на страницу оплаты товара
+  status: fail
+
+bugreports: []
+
+---
+test-cases:
+- summary: |
+    Тест на совместимость с Microsoft Edge
+  status: pass
+
+- summary: |
+    Тест на совместимость с Microsoft Edge
+  status: pass
+
+bugreports: []
+
+---
+test-cases:
+- summary: |
+    Тест на совместимость с FireFox
+  status: pass
+
+- summary: |
+    Тест на совместимость с FireFox
     status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      После оформления заказа происходит переход на страницу оплаты товара
-    status: fail
+- summary: |
+    Тест на совместимость с Chrome
+  status: pass
+  
+- summary: |
+    Тест на совместимость с Chrome
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      тест на совместимость с Microsoft Edge
-    status: pass
+- summary: |
+    Тест на совместимость с Opera
+  status: pass
+
+- summary: |
+    Тест на совместимость с Opera
+  status: pass
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      тест на совместимость с FireFox
-    status: pass
+- summary: |
+    Тест на совместимость с Safari
+  status: fail
+
+- summary: |
+    Тест на совместимость с Safari
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      тест на совместимость с Chrome
-    status: pass
+- summary: |
+    Описание товара на языке версии сайта
+  status: fail
+  
+- summary: |
+    Описание товара на языке версии сайта
+  status: fail
+
 bugreports: []
 
 ---
 test-cases:
-  - summary: |
-      тест на совместимость с Opera
-    status: pass
-bugreports: []
+- summary: |
+    Имеется подробное описание для каждого заказа
+  status: pass
+  
+- summary: |
+    Имеется подробное описание для каждого заказа
+  status: pass
 
----
-test-cases:
-  - summary: |
-      тест на совместимость с Safari
-    status: fail
-bugreports: []
-
----
-test-cases:
-  - summary: |
-      описание товара на языке версии сайта
-    status: fail
-bugreports: []
-
----
-test-cases:
-  - summary: |
-      имеется подробное описание для каждого заказа
-    status: pass
 bugreports: []
