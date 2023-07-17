@@ -116,12 +116,13 @@ test-cases:
     Имеется подробное описание для каждого заказа
   status: pass
 
-bugreports: []
-
-bugreports: []
-
 bugreports:
-  - summary: |
+
+[]
+
+[]
+
+- summary: |
       Поехала верстка
     environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
@@ -135,7 +136,6 @@ bugreports:
     actual-result: |
       Поехала верстка сайта, кнопка в корзину уехала за рамки
 
-bugreports:
   - summary: |
       Сайт не корректно выдает товары
     environment: |
@@ -150,7 +150,6 @@ bugreports:
     actual-result: >
       Сайт выдал много товаров не относящихся к данным параметрам поиска и данной категории   
 
-bugreports: 
 []
 
 []
