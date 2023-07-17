@@ -4,142 +4,114 @@ test-cases:
     Возможность искать товары по ключевому слову
   status: pass
 
-test-cases:
 - summary: |
     Возможность искать товары по категории
   status: pass
 
-test-cases:
 - summary: |
     Возможность фильтровать товары
   status: pass
 
-test-cases:
 - summary: |
     Возможность искать товары по категории 2
   status: fail
   
-test-cases:
 - summary: |
     Возможность просматривать товары
   status: pass
 
-test-cases:
 - summary: |
     Имеется кнопка с подробным описанием товара
   status: fail
 
-test-cases:
 - summary: |
     Возможность добавлять товары в корзину и просматривать содержимое корзины
   status: pass
 
-test-cases:
 - summary: >
     Возможность редактировать корзину - увеличивать количество выбранных товаров
   status: pass
 
-test-cases:
 - summary: |
     Удаление товаров из корзины
   status: pass
 
-test-cases:
 - summary: |
     Оформление заказа
   status: pass
 
-test-cases:
 - summary: |
     Данные заказа отправляются на сервер
   status: fail
 
-test-cases:
 - summary: |
     Расчет стоимости добавленных товаров
   status: pass
 
-test-cases:
 - summary: |
     Корректная работа фильтра В наличии
   status: fail
 
-test-cases:
 - summary: |
     Корректная работа фильтра В наличии 2
   status: fail
 
-test-cases:
 - summary: |
     Корректная работа фильтра Цена
   status: fail
 
-test-cases:
 - summary: |
     Корректная работа фильтра Цена 2
   status: fail
 
-test-cases:
 - summary: |
     Корректная работа фильтра Цена 3
   status: fail
 
-test-cases:
 - summary: |
     Корректная работа фильтра Цена 4
   status: pass
 
-test-cases:
 - summary: |
     Корректная работа фильтра Цена 5
   status: fail
 
-test-cases:
 - summary: |
     Сайт имеет мобильную версию
   status: fail
 
-test-cases:
 - summary: |
     Веб-сайт оптимизирован для скорости работы
   status: pass
 
-test-cases:
 - summary: |
     После оформления заказа происходит переход на страницу оплаты товара
   status: fail
 
-test-cases:
 - summary: |
     Тест на совместимость с Microsoft Edge
   status: pass
 
-test-cases:
 - summary: |
     Тест на совместимость с FireFox
     status: pass
 
-test-cases:
 - summary: |
     Тест на совместимость с Chrome
   status: pass
 
-test-cases:
 - summary: |
     Тест на совместимость с Opera
   status: pass
 
-test-cases:
 - summary: |
     Тест на совместимость с Safari
   status: fail
 
-test-cases:
 - summary: |
     Описание товара на языке версии сайта
   status: fail
 
-test-cases:
 - summary: |
     Имеется подробное описание для каждого заказа
   status: pass
@@ -178,24 +150,24 @@ bugreports:
     actual-result: >
       Сайт выдал много товаров не относящихся к данным параметрам поиска и данной категории   
 
-bugreports: []
+bugreports: 
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports:
-  - summary: |
+- summary: |
       Сайт не корректно выдает товары
     environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
@@ -207,8 +179,7 @@ bugreports:
       Товаров стало больше так как добавились товары которых нет в наличии
     actual-result: |
       Количество товаров уменьшилось
-
-bugreports:
+      
   - summary: |
       Сайт не корректно выдает товары
     environment: |
@@ -222,18 +193,17 @@ bugreports:
     actual-result: |
       Количество товаров увеличилось
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports:
-  - summary: |
+- summary: |
       Разъехалась верстка
     environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
@@ -248,20 +218,20 @@ bugreports:
     actual-result: |
       Исчезли панели фильтров Brand сайт отображается не полностью
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
 
-bugreports: []
+[]
