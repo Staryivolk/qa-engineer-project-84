@@ -118,8 +118,8 @@ test-cases:
 
 bugreports:
 - summary: |
-    Поехала верстка
-    environment: |
+     Поехала верстка
+environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
     steps-to-reproduce: >
