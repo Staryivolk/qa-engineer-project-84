@@ -94,7 +94,7 @@ test-cases:
 
 - summary: |
     Тест на совместимость с FireFox
-    status: pass
+  status: pass
 
 - summary: |
     Тест на совместимость с Chrome
@@ -119,69 +119,69 @@ test-cases:
 bugreports:
 - summary: |
      Поехала верстка
-environment: |
+  environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
-steps-to-reproduce: >
+  steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ 
       2. Слева на панели фильтра ставим галочку напротив Samsung 
       3. Слева во вкладке категория выбираем smartphones
-expected-result: |
+  expected-result: |
       открываются товары Samsung верстка сайта сохраняется
-actual-result: |
+  actual-result: |
       Поехала верстка сайта, кнопка в корзину уехала за рамки
 
 - summary: |
       Сайт не корректно выдает товары
-environment: |
+  environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
-steps-to-reproduce: >
+  steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Слева на панели фильтра ставим галочку напротив Apple
       3. В окне поиска вводим Samsung
-expected-result: |
+  expected-result: |
       Данных товаров не обнаружено
-actual-result: >
+  actual-result: >
       Сайт выдал много товаров не относящихся к данным параметрам поиска и данной категории   
 
 - summary: |
       Сайт не корректно выдает товары
-environment: |
+  environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
-steps-to-reproduce: >
+  steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Слева на панели фильтра ставим убираем галочку напротив В наличии
-expected-result: |
+  expected-result: |
       Товаров стало больше так как добавились товары которых нет в наличии
-actual-result: |
+  actual-result: |
       Количество товаров уменьшилось
       
 - summary: |
       Сайт не корректно выдает товары
-environment: |
+  environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
-steps-to-reproduce: >
+  steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Слева на панели фильтра ставим галочку напротив В наличии
-expected-result: |
+  expected-result: |
       Товаров стало меньше так как исчезли товары которых нет в наличии
-actual-result: |
+  actual-result: |
       Количество товаров увеличилось
 
 - summary: |
       Разъехалась верстка
-environment: |
+  environment: |
       Google Chrome 114.0.5735.199 (Официальная сборка) (64 бит)
       Windows 10
-steps-to-reproduce: >
+  steps-to-reproduce: >
       1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. открываем DevTools
       3. открываем в DevTools device toolbars
       4. выбираем Iphone SE
-expected-result: |
+  expected-result: |
       Надписи и картинки не выходят за рамки полей
-actual-result: |
+  actual-result: |
       Исчезли панели фильтров Brand сайт отображается не полностью
