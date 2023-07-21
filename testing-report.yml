@@ -52,15 +52,7 @@
   status: pass
 
 - summary: |
-    Фильтрация по цене ниже минимальной
-  status: pass
-
-- summary: |
-    Фильтрация по цене выше минимальной
-  status: fail
-
-- summary: |
-    Фильтрация по цене ниже максимальной
+    Фильтрация по цене
   status: fail
 
 - summary: |
